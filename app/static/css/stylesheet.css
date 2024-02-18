@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 h1 {
     font-family: "Lucida Console", "Courier New", monospace;
     text-align: center;
@@ -23,4 +33,29 @@ div {
     margin-right: auto;
     width: 70%;
     height: fit-content;
+}
+
+nav {
+    border: solid black 1px;
+    list-style: none;
+    padding: 10px;
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul,
+a {
+    color: #c90909;
+    text-decoration: none;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+  }
+
+li {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
 }
